@@ -3,10 +3,12 @@
 
 **In this project, we investigated the correlation between physical attributes and the likelihood of diabetes diagnosis. This was accomplished by comparing the robustness of six classification models: Neural Net, Random Forest, Logistic Regression, Naive Bayes, KNN, and SVM**
 
+___
+
 This project involved sourcing the dataset, carrying out exploratory data analysis, fixing missing values and outliers, and fitting various classification models to predict diabetes diagnosis. 
 
-Key Findings:
-- As evident from the table below,  Random Forest model is the most effective predictive model for understanding the relationship between diabetes and the given features in this dataset. Other models like Neural Net and KNN performed relatively well with high F1 scores whereas Naive Bayes performed the worst. 
+**Key Findings:**
+- As evident from the table below, Random Forest was the most effective predictive model for understanding the relationship between diabetes and the given features in this dataset. Other models like Neural Net and KNN performed relatively well with high F1 scores whereas Naive Bayes performed the worst. 
 
 | Ranking | Model               | Train Accuracy | Test Accuracy | F1 (weighted) |
 |---------|---------------------|----------------|---------------|---------------|
@@ -17,9 +19,9 @@ Key Findings:
 | 5       | SVM                 | 0.9612         | 0.9597        | 0.9555        |
 | 6       | Naïve Bayes         | 0.9034         | 0.9024        | 0.9099        |
 
-- Through our analysis, *HbA1c_level* and *blood_glucose_level* are the two most significant features for predicting diabetes. Further investigation into these features could involve examining their correlations or creating a composite feature to assess its predictive power against diabetes. 
+- Through our analysis, *HbA1c_level* and *blood_glucose_level* were the two most significant features for predicting diabetes. Further investigation into these features could involve examining their correlations or creating a composite feature to assess its predictive power against diabetes. 
 
-Exploratory Data Analysis:
+**Exploratory Data Analysis:**
 - Confusion matrix of all features 
   > ![](imgs/confusion_matrix.png)
 - Correlation of features with diabetes 
@@ -32,7 +34,3 @@ Exploratory Data Analysis:
   > ![](imgs/age_vs_various_features_vs_diabetes.png)
 - Bar Graphs for Smoking History and Gender Categorical Features as a Portion of the Dataset
   > ![](imgs/distribution_of_categorical_vars.png)
-
-
-
-
