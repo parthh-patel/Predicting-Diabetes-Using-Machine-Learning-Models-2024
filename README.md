@@ -1,7 +1,13 @@
 # Predicting Diabetes Using Machine Learning Models
-### Georgia Tech - Machine Learning I | Parth Patel | 2024
 
-**In this project, we investigated the correlation between physical attributes and the likelihood of diabetes diagnosis. This was accomplished by comparing the robustness of six classification models: Neural Net, Random Forest, Logistic Regression, Naive Bayes, KNN, and SVM**
+**In this project, the correlation between physical attributes and the likelihood of diabetes diagnosis was investigated. This was accomplished by comparing the robustness of six classification models: Neural Net, Random Forest, Logistic Regression, Naive Bayes, KNN, and SVM**
+
+<div align="center">
+  
+| [Final Report](https://github.com/parthh-patel/Predicting-Diabetes-Using-Machine-Learning-Models-2024/blob/main/Predicting%20Diabetes%20Using%20Machine%20Learning%20Models%20on%20Medical%20and%20Demographic%20Data.pdf) | [Project Code](https://github.com/parthh-patel/Predicting-Diabetes-Using-Machine-Learning-Models-2024/blob/main/Predicting%20Diabetes%20Using%20Machine%20Learning%20Models%20on%20Medical%20and%20Demographic%20Data%20-%20Jupyter%20Notebook.ipynb) |
+|---|---|
+
+</div>
 
 ___
 
@@ -10,6 +16,8 @@ This project involved sourcing the dataset, carrying out exploratory data analys
 **Key Findings:**
 - As evident from the table below, Random Forest was the most effective predictive model for understanding the relationship between diabetes and the given features in this dataset. Other models like Neural Net and KNN performed relatively well with high F1 scores whereas Naive Bayes performed the worst. 
 
+<div align="center">
+  
 | Ranking | Model               | Train Accuracy | Test Accuracy | F1 (weighted) |
 |---------|---------------------|----------------|---------------|---------------|
 | 1       | Random Forest       | 0.9721         | 0.9709        | 0.9682        |
@@ -18,6 +26,8 @@ This project involved sourcing the dataset, carrying out exploratory data analys
 | 4       | Logistic Regression | 0.9606         | 0.9590        | 0.9559        |
 | 5       | SVM                 | 0.9612         | 0.9597        | 0.9555        |
 | 6       | Naïve Bayes         | 0.9034         | 0.9024        | 0.9099        |
+
+</div>
 
 - Through our analysis, *HbA1c_level* and *blood_glucose_level* were the two most significant features for predicting diabetes. Further investigation into these features could involve examining their correlations or creating a composite feature to assess its predictive power against diabetes. 
 
